@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PHP2</title>
 </head>
 <body>
     <?php 
@@ -185,8 +185,7 @@ $kurslar2=[
 ];
 print_r(array_replace($kurslar,$kurslar1,$kurslar2));  // elemanları belirtilen dizilerde günceller
     
-print_r(array_count_values($kurslar));  //yinelenen elemanların kaç kez yinelendiğini gösterir
-    ?>
+print_r(array_count_values($kurslar));  //yinelenen elemanların kaç kez yinelendiğini gösterir  ?>
 
 </body>
 </html>
